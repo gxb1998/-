@@ -1,0 +1,218 @@
+header{
+    height: .69rem;
+    width: 100%;
+    background: #ff9900;
+    padding: .33rem .1rem .12rem .17rem;
+    box-sizing: border-box
+
+}
+.top_box{
+    
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .18rem;
+    float: left;
+    color: #ffffff;
+}
+.icon-xiangzuo{
+    font-size: .22rem
+}
+.cartop{
+    margin-left: 1.25rem;
+}
+/* 底部导航 */
+.nav{
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: .5rem;
+    font-size: .125rem;
+    border-top: .01rem solid #eeeeee;
+    
+    
+}
+.nav div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon-shouye,.icon-fenleihuaban,.icon-gouwuche,.icon-gouwuche{
+    font-size: .2rem;
+}
+.leftcon{
+    margin-left: .35rem;
+}
+.rightcon{
+    margin-right: .375rem;;
+}
+.icon-fenleihuaban{
+    margin-left: .03rem;
+}
+.icon-gouwuche{
+    margin-left: .05rem
+} 
+.icon-wode{
+    margin-left: -.025rem;
+}
+.icon-shouye{
+    color: #ff9900;
+}
+.active{
+    color: #ff9900;
+}
+.option{
+    height: 1.625rem;
+    background: #fafafa;
+    font-size: .14rem;
+    box-sizing: border-box;
+    padding-top: .17rem;
+    padding-left: .18rem;
+}
+.van-swipe-cell__right{
+    /* top: -.52rem; */
+}
+.van-cell{
+    height: 1.05rem;
+   background: #fafafa;
+}
+.van-button{
+    height: 1.05rem;
+}
+.location{
+    color: #b7b7b7;
+    line-height: .18rem;
+    height: .18rem;
+    display: flex;
+    
+    align-items: center;
+    
+}
+.icon-shangdian{
+    display: inline-block;
+   
+    font-size: .18rem;
+    padding-right: .15rem;
+}
+.location span{
+    height: .18rem;
+    
+}
+.goodpic img{
+    width: .79rem;
+    height:.79rem ;
+}
+/* .van-cell{
+    padding: none;
+} */
+.van-cell--borderless{
+    
+    padding: none;
+}
+.van-cell__value--alone{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.van-checkbox__icon--checked .van-icon{
+    color: #ff9900;
+    background: none;
+    border-color: #ff9900;
+}
+.van-checkbox__icon .van-icon{
+    border-color: #ff9900;
+}
+.countop span{
+}
+.countop {
+    /* height: 100%;
+    width: 2.34rem; */
+    /* border: .03rem solid #cccccc; */
+    /* box-sizing: border-box; */
+
+}
+.countop div{
+    float: left;
+    text-align: center;
+}
+.countop .jian{
+    height: 100%;
+    width: 0.375rem;
+    border: .015rem solid #cccccc;
+    border-right: none;
+    border-radius: .025rem;
+
+}
+.countop .num{
+    width: .4rem;
+    border: .015rem solid #cccccc;
+    
+}
+.jia{
+    width: .35rem;
+    height: 100%;
+    border: .015rem solid #cccccc;
+    border-left: none;
+    border-radius: .025rem;
+
+}
+.cardetail{
+    /* position: relative; */
+}
+.account{
+    position:fixed;
+    bottom: .5rem;
+    left: 0;
+    width: 100%;
+    font-size: .14rem;
+    border-top: .01rem solid #eeeeee; 
+}
+.account .van-checkbox{
+    
+    margin-top: .08rem;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.account-sum{
+    color: #999999;
+    margin-top: .15rem;
+    font-size: .11rem;
+    margin-left: 1.65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.account-detail{
+    margin-left: .1rem;
+    /* font-size: .22rem; */
+}
+.account .a1{
+    margin-left: .18rem;
+    margin-bottom: .07rem;
+}
+.account .a2{
+    margin-left: .33rem;
+    margin-bottom: .07rem;
+}
+.account .van-checkbox__label{
+    margin-top: .05rem;
+    
+}
+.gosum{
+    float: right;
+    background: #ff9900;
+    width: 1rem;
+    height: .57rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    line-height: .57rem;
+    font-size: .19rem;
+    color: #fff;
+}
